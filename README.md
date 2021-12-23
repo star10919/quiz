@@ -25,11 +25,13 @@
 
       >  __Linux/MacOSX__
        $ touch quiz1_start
+
       > __Windows__ 
        $ type nul > quiz1_start
    * 각 quiz*.py 작성이 완료된 시점과 커밋, 푸시 사이에 quiz*_end 파일을 생성합니다.
       >  __Linux/MacOSX__
        $ touch quiz1_end
+       
       > __Windows__ 
        $ type nul > quiz1_end
 3. 완료 알림을 메일로 보내주세요.
