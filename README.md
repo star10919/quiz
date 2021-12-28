@@ -18,7 +18,7 @@
 
     > Quiz가 github으로 진행되는 만큼 빈 프로젝트를 만들어 커밋 푸시 하여 클라이언트에 Personal Access Token 등록을 미리 진행해 주세요.
 
-2. 아래 기준에 따라 quiz1~4.py 파일을 작성(수정)하고 개인 github 저장소에 커밋, 푸시 합니다. 
+2. 아래 기준에 따라 quiz1~5.py 파일을 작성(수정)하고 개인 github 저장소에 커밋, 푸시 합니다. 
    * 각 quiz*.py를 작성하기 시작한 시점에 quiz*_start 파일을 생성합니다.
 
       > "작성"의 기준은 각 quiz의 내용을 보기 시작한 시점입니다. 코드를 짜기 시작한 시점이 아닙니다.
@@ -31,7 +31,7 @@
    * 각 quiz*.py 작성이 완료된 시점과 커밋, 푸시 사이에 quiz*_end 파일을 생성합니다.
       >  __Linux/MacOSX__
        $ touch quiz1_end
-       
+
       > __Windows__ 
        $ type nul > quiz1_end
 3. 완료 알림을 메일로 보내주세요.
