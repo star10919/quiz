@@ -1,5 +1,5 @@
 import time
-
+SAVE_PATH = 'C://Users/ypolaris/Desktop/quiz/quiz/data/'
 # TODO: 
 # 로또 6/45는 1에서 45까지의 숫자 6개를 선택하는 게임(이하 로또게임)입니다.
 # '자동게임'은 로또게임 시 숫자를 기계가 자동으로 선택하는 방식입니다.
@@ -14,9 +14,18 @@ import time
 #   하단의 코드는 수정하지 않습니다.
 
 # {코드 작성 시작} 
+import random
+
+rotto = []
+for i in range(101):
+ a = random.sample(range(1, 46), 6)
+ print(f'{a}')
+ rotto.append(a)
+
+f = open(SAVE_PATH + 'quiz3.txt', "w")
+f.write(str(rotto))
 
 # {코드 작성 완료}
-
-f = open('data/quiz3.txt', mode='r')
+f = open('C://Users/ypolaris/Desktop/quiz/quiz/data/quiz3.txt', mode='r')
 print(f.read())
 f.close()

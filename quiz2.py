@@ -1,8 +1,26 @@
 lines: list = []
-f = open('data/quiz2.txt', mode='r')
-#print(f.read())
-for line in f.readlines():
-  lines.append(line)
+f = open('C://Users/ypolaris/Desktop/quiz/quiz/data/quiz2.txt', mode='r')
+print(f.read())
+# file = f.readlines
+# print(type(file))
+
+list_ = []
+cal = 1
+for i in f.readlines():
+      if i % 3 == 0:
+            cal = i[0] * i
+            
+      elif i % 10 == 0:
+            cal = i[0] - i
+            
+      # elif :
+            
+      else:
+            cal = i[0] + i
+      list_.append(cal)
+   
+      
+print(list_)
 f.close()
 
 # TODO: 
@@ -28,8 +46,13 @@ f.close()
 
 # {코드 작성 시작} 
 
+        
+      
+
+
+
 # {코드 작성 완료}
 
-f = open('data/quiz2.txt', mode='r')
+f = open('C://Users/ypolaris/Desktop/quiz/quiz/data/quiz2.txt', mode='r')
 print(f.read())
 f.close()
